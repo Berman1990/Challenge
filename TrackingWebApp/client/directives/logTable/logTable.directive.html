@@ -1,0 +1,24 @@
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.17/angular.min.js"></script>
+
+<table class="table">
+    <tr>
+        <th>Tracking Number
+        </th>
+        <th>Severity
+        </th>
+        <th>Message
+        </th>
+    </tr>
+    <tr ng-repeat="log in trackingLogs">
+        <td>{{log.trackingNumber}}
+        </td>
+        <td>{{log.severity}}
+        </td>
+        <td>{{log.message}}
+        </td>
+    </tr>
+</table>
+

@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "ngmap": "latest",
+    "angular-animate": "latest",
+    "angular-messages": "latest",
+    "angular-resource": "latest",
+    "angular-ui-router": "latest",
+    "angular": "latest",
+    "satellizer": "latest",
+    "angular-material": "latest"
+  }
+}
